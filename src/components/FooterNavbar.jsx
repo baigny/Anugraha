@@ -1,8 +1,5 @@
 import React from 'react';
-
-import { Col, Container, Row, Footer } from "mdbreact";
-import { MDBIcon } from "mdbreact";
-
+import { Col, Container, Row, Footer,MDBIcon } from "mdbreact";
 import '../styles/footerNavbar.css'
 
 class FooterPage extends React.Component {
