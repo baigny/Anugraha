@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap'
 //import CircularJSON from 'circular-json'
 //import CommonCart from './CommonCart.jsx';
 
-class Courses extends Component {
+class StateCourses extends Component {
     
   constructor(props){
     super(props)
