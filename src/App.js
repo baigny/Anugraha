@@ -16,19 +16,23 @@ class App extends Component {
   render() {
     return (
 
-      <Router>
-        <div>
-          <Navbar/>
-          <Route exact path="/" component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/courses" component={Courses}/>
-          <Route path="/gallery" component={Gallery}/>
-          <Route path="/news" component={News}/>
-          <Route path="/blog" component={Blog}/>
-          <Route path="/contact" component={Contact}/>
-          <Footer/>
-        </div>
-      </Router>
+      <div>
+        
+        <Router>
+          <div>
+            <Navbar/>
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/courses" component={Courses}/>
+            <Route path="/gallery" component={Gallery}/>
+            <Route path="/news" component={News}/>
+            <Route path="/blog" component={Blog}/>
+            <Route path="/contact" component={Contact}/>
+          </div>
+        </Router>
+        
+        <Footer/>
+      </div>
 
     );
   }

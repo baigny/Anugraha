@@ -11,23 +11,16 @@ class Home extends Component {
         <div>
 			
             <HomePageCarousel/>
-            <Jumbotron>
-					<h2> Welcome to Anugraha Women's College</h2>
-					<p> College Education</p>
-					<Link to="/about">
-					  <Button bsStyle="primary" >About</Button>
-				   </Link>
-			</Jumbotron>          
+            
             <Grid>
-
-				<Jumbotron>
-					<h2> Welcome to Anugraha Women's College</h2>
-					<p> College Education</p>
-					<Link to="/about">
-					  <Button bsStyle="primary" >About</Button>
-				   </Link>
-				</Jumbotron>             
-			</Grid>
+							<Jumbotron>
+								<h2> Welcome to Anugraha Women's College</h2>
+								<p> College Education</p>
+								<Link to="/about">
+									<Button bsStyle="primary" >About</Button>
+								</Link>
+							</Jumbotron>             
+						</Grid>
         </div>
     );
   }
