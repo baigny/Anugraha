@@ -10,7 +10,7 @@ export default class PrimaryNavbar extends Component {
   render() {
     return (
       <div > 
-          <Navbar inverse collapseOnSelect className="xyz">
+          <Navbar inverse collapseOnSelect className="customized-navbar">
             <Navbar.Header>
               <Navbar.Brand>
                 <Link to = "/">
