@@ -7,64 +7,19 @@ import { Button } from 'react-bootstrap'
 //import CommonCart from './CommonCart.jsx';
 
 class Courses extends Component {
-    constructor(props){
-        super(props)
+    
+  constructor(props){
+    super(props)
         this.state = {
-          originalMetricGrouping: {
-            expressions: [{
-                domainExpression: '(.*)',
-                agentExpression: '(.*)',
-                metricExpression: '(.*)'
-              },
-              {
-                domainExpression: '(.*)',
-                agentExpression: '(.*)',
-                metricExpression: '(.*)'
-              },
-              {
-                domainExpression: '(.*)',
-                agentExpression: '(.*)',
-                metricExpression: '(.*)'
-              }],
-              managementModuleId: '',
-              metricGroupingName: '',
-              active: true,
-              editable: true,
-              useManagementModuleAgentExpression: false,
-              description: ''
-            },
-          metricGrouping: {
-            expressions: [{
-                domainExpression: '(.*)',
-                agentExpression: '(.*)',
-                metricExpression: '(.*)'
-              },
-              {
-                domainExpression: '(.*)',
-                agentExpression: '(.*)',
-                metricExpression: '(.*)'
-              },
-              {
-                domainExpression: '(.*)',
-                agentExpression: '(.*)',
-                metricExpression: '(.*)'
-              }],
-            managementModuleId: '',
-            metricGroupingName: '',
-            active: true,
-            editable: true,
-            useManagementModuleAgentExpression: false,
-            description: ''
-          },
           value: 0
         }
       }
 
       
-      evaluateCircString = () => {
+      incrementVal = () => {
 
         this.setState({
-          value: (JSON.stringify(this.state.originalMetricGrouping) === JSON.stringify(this.state.metricGrouping)) ? 1 : 2
+          value: this.state.value + 1
         })
         
         
@@ -73,12 +28,12 @@ class Courses extends Component {
   render() {
     return (
         <div>
-            <Button onClick={this.evaluateCircString}> Evaluate </Button>
+            <Button onClick={this.incrementVal}> Evaluate </Button>
             <div className="home-pararaph">
                 {this.state.value}
             </div>
             <Link to='/'>
-            home
+            HOME
             </Link>
 
 
