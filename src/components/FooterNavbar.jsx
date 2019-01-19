@@ -15,23 +15,23 @@ return (
       <Col xs="12" sm ="4" md="3">
           <Row>
             <Col md="6">
-              <h6 className="text-uppercase font-weight-bold ">Products</h6>
+              <h6 className="text-uppercase font-weight-bold ">Anugraha Site</h6>
               <hr/>
             </Col>
           </Row>
           <Row>
             <Col md="12">
               <p>
-                <a href="#!">MDBootstrap</a>
+                <a href="/">Home</a>
               </p>
               <p>
-                <a href="#!">MDWordPress</a>
+                <a href="/about">About</a>
               </p>
               <p>
-                <a href="#!">BrandFlow</a>
+                <a href="/gallery">Gallery</a>
               </p>
               <p>
-                <a href="#!">Bootstrap Angular</a>
+                <a href="news">News</a>
               </p>
             </Col>
           </Row>
@@ -39,23 +39,23 @@ return (
       <Col xs="12" sm ="4" md="3">
           <Row>
             <Col md="6">
-              <h6 className="text-uppercase font-weight-bold ">Useful links</h6>
+              <h6 className="text-uppercase font-weight-bold ">Useful Links</h6>
               <hr/>
             </Col>
           </Row>
           <Row>
             <Col md="12">
               <p>
-                <a href="#!">MDBootstrap</a>
+                <a href="https://mangaloreuniversity.ac.in/">Mangalore University</a>
               </p>
               <p>
-                <a href="#!">MDWordPress</a>
+                <a href="http://pue.kar.nic.in/">Karnataka PU Education</a>
               </p>
               <p>
-                <a href="#!">BrandFlow</a>
+                <a href="http://karnatakaeducation.gov.in/">Karnataka Education Portal</a>
               </p>
               <p>
-                <a href="#!">Bootstrap Angular</a>
+                <a href="http://www.kseeb.kar.nic.in/index.asp">KSEEB</a>
               </p>
             </Col>
           </Row>
@@ -69,14 +69,19 @@ return (
           </Row>
           <Row>
             <Col md="12">
-              <p >
-                <MDBIcon icon="address-book" className="amber-text pr-3" style={{"marginRight":".5em"}}/> Anugraha Women's College, Kalladka</p>
               <p>
-                <MDBIcon icon="at" className="red-text pr-3" style={{"marginRight":".5em"}}/>  info@example.com</p>
+                <MDBIcon icon="address-book" className="amber-text pr-3 mr"/> 
+                Anugraha Education Trust
+              </p>
               <p>
-               <MDBIcon icon="mobile"  className="cyan-text pr-3" style={{"marginRight":".5em"}}/>  + 01 234 567 88</p>
+                <MDBIcon icon="at" className="red-text pr-3 mr"/>anugraha.kalladka@gmail.com
+              </p>
               <p>
-                <MDBIcon icon="mobile"  className=" pr-3" style={{"marginRight":".5em","color":"red"}}/> + 01 234 567 89</p>
+               <MDBIcon icon="mobile" className="cyan-text pr-3 mr"/>+91 9481148830
+              </p>
+              <p>
+               <MDBIcon icon="mobile" className="red-text pr-3 mr"/>+91 9481148830
+              </p>
             </Col>
           </Row>
       </Col>      
@@ -86,7 +91,7 @@ return (
   <div className="footer-copyright text-center py-3">
     <Container fluid>
       &copy; {new Date().getFullYear()} Copyright:{" "}
-      <a href="https://www.MDBootstrap.com"> Anugraha Women's College </a>
+      <a href="/"> Anugraha Women's College </a>
     </Container>
 
   </div>

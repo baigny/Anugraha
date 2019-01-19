@@ -20,8 +20,8 @@ export default class HomePageCarousel extends Component {
         var renderingItem = <div className='image-gallery-image'>
                                 <img
                                     src={item.original}
-                                    /* alt={item.originalAlt}
-                                    srcSet={item.srcSet}
+                                     alt={item.originalAlt}
+                                    /*srcSet={item.srcSet}
                                     sizes={item.sizes}
                                     onLoad={this.props.onImageLoad} */
                                     onError={onImageError.bind(this)}
