@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/home.css'
 import {Jumbotron, Grid,  Button} from 'react-bootstrap';
 
@@ -8,7 +9,17 @@ class Home extends Component {
   render() {
     return (
         <div>
-			<Grid>
+			
+            <HomePageCarousel/>
+            <Jumbotron>
+					<h2> Welcome to Anugraha Women's College</h2>
+					<p> College Education</p>
+					<Link to="/about">
+					  <Button bsStyle="primary" >About</Button>
+				   </Link>
+			</Jumbotron>          
+            <Grid>
+
 				<Jumbotron>
 					<h2> Welcome to Anugraha Women's College</h2>
 					<p> College Education</p>
@@ -17,7 +28,6 @@ class Home extends Component {
 				   </Link>
 				</Jumbotron>             
 			</Grid>
-            <HomePageCarousel/>
         </div>
     );
   }

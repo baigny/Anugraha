@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import {redA400} from 'material-ui/styles/colors';
 
 import '../styles/about.css'
 import HorizontalLinearStepper from './HorizontalLinearStepper.jsx'
-import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
+//import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import AppBar from 'material-ui/AppBar';
+//import AppBar from 'material-ui/AppBar';
 
 //import CommonCart from './CommonCart.jsx';
 

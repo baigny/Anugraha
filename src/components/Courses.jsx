@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Button, Card, CardBody, CardImage, CardTitle, CardText, Col, Row, Container, MDBIcon, MDBBtn } from 'mdbreact';
+import { Card, CardBody, CardImage, CardTitle, CardText, Col, Row, Container, MDBBtn } from 'mdbreact';
 
 
 import '../styles/courses.css'

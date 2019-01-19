@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
-import '../styles/PrimaryNavbar.css'
+import '../styles/primaryNavbar.css'
 
 
 
@@ -10,7 +10,7 @@ export default class PrimaryNavbar extends Component {
   render() {
     return (
       <div > 
-          <Navbar inverse collapseOnSelect>
+          <Navbar inverse collapseOnSelect className="xyz">
             <Navbar.Header>
               <Navbar.Brand>
                 <Link to = "/">

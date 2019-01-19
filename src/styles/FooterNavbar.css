@@ -1,0 +1,8 @@
+@import '../../node_modules/font-awesome/css/font-awesome.min.css';
+@import '../../node_modules/mdbreact/dist/css/mdb.css';
+
+.dock-bottom {
+	width: 100%;
+	position: relative;
+	bottom: 0;
+}
