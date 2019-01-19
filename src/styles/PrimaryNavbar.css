@@ -1,0 +1,15 @@
+.navbar-inverse {
+    background-color: green;
+    border-color: #080808;
+}
+\
+.navbar-inverse {
+    background-image: -webkit-linear-gradient(top,#337ab7 0,#337ab7 100%);
+    background-image: -o-linear-gradient(top,#337ab7 0,#337ab7 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#3c3c3c),to(#222));
+    background-image: linear-gradient(to bottom,#337ab7 0,#337ab7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+}
