@@ -1,0 +1,19 @@
+@import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery-slide img {
+  height: 600px;
+}
+
+.carousel-links, .carousel-links:hover{
+  color: white;
+  text-decoration: none
+}
+
+.image-gallery-slide .image-gallery-description{
+  bottom: 500px;
+  left: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
