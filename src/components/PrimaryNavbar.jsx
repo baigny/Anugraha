@@ -33,8 +33,12 @@ export default class PrimaryNavbar extends Component {
           <Navbar inverse collapseOnSelect className="customized-navbar">
             <Navbar.Header>
               <Navbar.Brand>
-                <Link to = "/">
-                  Anugraha
+                <Link to = "/"  onClick={window.scrollTo(0, 0)}>
+                  <img
+                    src="res/Anugraha logo.png"
+                    alt=""
+                    /* className="img-fluid rounded z-depth-1" */
+                    />
                 </Link>
               </Navbar.Brand>
               <Navbar.Toggle/>

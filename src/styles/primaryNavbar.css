@@ -1,11 +1,16 @@
 .customized-navbar {
-    background-image: linear-gradient(to bottom,#ffffff 0,rgb(204, 204, 204) 100%);
+    background-image: linear-gradient(to bottom,#ffffff 0,#ffffff 100%);
     margin-bottom: 0;
     border: 0;
-    height: 60px;
+    height: 114px;
 }
 
-.navbar-inverse .navbar-nav>li>a{
+.navbar-brand{
+    padding: 2px;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-nav>li>a:focus{
     color: #000;
     margin: 2px;
 }
@@ -21,4 +26,9 @@
     background-color: #1976D2;
     background-image: none;
     margin: 5px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    position: relative;
+    top: 30px;
 }

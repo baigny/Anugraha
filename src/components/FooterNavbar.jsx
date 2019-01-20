@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row, Footer,MDBIcon } from "mdbreact";
+import { Link } from 'react-router-dom';
 import '../styles/footerNavbar.css'
 
 class FooterPage extends React.Component {
@@ -19,16 +20,24 @@ return (
           <Row>
             <Col md="12">
               <p>
-                <a href="/">Home</a>
+                <Link to = "/">
+                  Home
+                </Link>
               </p>
               <p>
-                <a href="/about">About</a>
+                <Link to = "/about">
+                  About
+                </Link>
               </p>
               <p>
-                <a href="/gallery">Gallery</a>
+                <Link to="/gallery">
+                  Gallery
+                </Link>
               </p>
               <p>
-                <a href="news">News</a>
+                <Link to="/news">
+                  News
+                </Link>
               </p>
             </Col>
           </Row>
@@ -88,7 +97,7 @@ return (
   <div className="footer-copyright text-center py-3">
     <Container fluid>
       &copy; {new Date().getFullYear()} Copyright:{" "}
-      <a href="/"> Anugraha Women's College </a>
+      <Link to="/"> Anugraha Women's College </Link>
     </Container>
 
   </div>

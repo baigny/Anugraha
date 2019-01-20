@@ -9,8 +9,8 @@ import News from './components/News.jsx';
 import Blog from './components/Blog.jsx';
 import Contact from './components/Contact.jsx';
 
-import Navbar from './components/PrimaryNavbar.jsx';
-import Footer from './components/FooterNavbar.jsx';
+import PrimaryNavbar from './components/PrimaryNavbar.jsx';
+import FooterNavbar from './components/FooterNavbar.jsx';
 
 class App extends Component {
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
         
         <Router>
           <div>
-            <Navbar/>
+            <PrimaryNavbar/>
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/courses" component={Courses}/>
@@ -28,10 +28,10 @@ class App extends Component {
             <Route path="/news" component={News}/>
             <Route path="/blog" component={Blog}/>
             <Route path="/contact" component={Contact}/>
+            <FooterNavbar/>
           </div>
         </Router>
         
-        <Footer/>
       </div>
 
     );
