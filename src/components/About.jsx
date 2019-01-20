@@ -14,13 +14,9 @@ class About extends Component {
                                    Anugraha Women's College
                          </h2>
                          <p className="black-text  text-center mx-auto mb-5">
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                est laborum.Duis aute irure dolor in reprehenderit in voluptate 
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                                est laborum.
+                            It is a fact that the success and development of the society primarily depends on value based education, by learning and practice. 
+                            Reasonably adequate institutions although available in urban areas, rural areas are devoid of such amenities. 
+                            In view of this, a group of well responsible individuals from Bantwal taluk area have formed Anugraha Educational Trust, Kalladka to meet the requirement.
                          </p>
                         </MDBCol>
                     </MDBRow>
@@ -44,9 +40,10 @@ class About extends Component {
                                 <MDBCol md="11" size="10">
                                     <h5 className="font-weight-bold mb-3">Marketing</h5>
                                     <p className="grey-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                    Reprehenderit maiores nam, aperiam minima elit assumenda
-                                    voluptate velit.
+                                        Considering the educational problems of rural areas of Bantwal taluk, particularly minority muslim girls, 
+                                        in 2011-12 the trust has commenced Women’s PU College 
+                                        at Golthamajal, Kalladka – a central place to serve many nearby localities viz: Kalladka, Panemangalore, Bantwal, BC Road, Farangipete, 
+                                        Manchi, Salettoor, Vittla, Kabaka, Mani etc. 
                                     </p>
                                 </MDBCol>
                              </MDBRow>
@@ -57,9 +54,8 @@ class About extends Component {
                                 <MDBCol md="11" size="10">
                                     <h5 className="font-weight-bold mb-3">Entertainment</h5>
                                     <p className="grey-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                    Reprehenderit maiores nam, aperiam minima elit assumenda
-                                    voluptate velit.
+                                        The trustees and associates have surveyed rural areas of Bantwal taluk to emphasize importance of education among residents 
+                                        and enrolled 51 students including drop-outs. 
                                     </p>
                                 </MDBCol>
                              </MDBRow>
@@ -70,9 +66,7 @@ class About extends Component {
                                 <MDBCol md="11" size="10">
                                     <h5 className="font-weight-bold mb-3">Communication</h5>
                                     <p className="grey-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                    Reprehenderit maiores nam, aperiam minima elit assumenda
-                                    voluptate velit.
+                                        The institution is committed to bring out well responsible citizens with the realization to perform what they learn. 
                                     </p>
                                 </MDBCol>
                              </MDBRow>
@@ -89,9 +83,7 @@ class About extends Component {
                                 <MDBCol md="11" size="10">
                                     <h5 className="font-weight-bold mb-3">Education</h5>
                                     <p className="grey-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                    Reprehenderit maiores nam, aperiam minima elit assumenda
-                                    voluptate velit.
+                                        It provides transport facility and cater students from all adjacent localities.                                         
                                     </p>
                                 </MDBCol>
                             </MDBRow>
@@ -102,9 +94,7 @@ class About extends Component {
                                 <MDBCol md="11" size="10">
                                     <h5 className="font-weight-bold mb-3">Technology</h5>
                                     <p className="grey-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                    Reprehenderit maiores nam, aperiam minima elit assumenda
-                                    voluptate velit.
+                                        Besides full-fledged education to girls and women, its objective is to serve rural areas where poor families cannot afford higher education.
                                     </p>
                                 </MDBCol>
                             </MDBRow>
@@ -115,9 +105,8 @@ class About extends Component {
                                 <MDBCol md="11" size="10">
                                     <h5 className="font-weight-bold mb-3">Finance</h5>
                                     <p className="grey-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
-                                    Reprehenderit maiores nam, aperiam minima elit assumenda
-                                    voluptate velit.
+                                        In response to our 1st batch of PU Students, parents, effective Academic year 2013-14, 
+                                        commenced “ Anugraha Women’s College” providing B.A. and B.Com courses under Mangalore University. 
                                     </p>
                                 </MDBCol>
                             </MDBRow>

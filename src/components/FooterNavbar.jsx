@@ -9,7 +9,8 @@ return (
 <Footer className="page-footer unique-color-dark dock-bottom">
   <Container fluid className=" text-md-left">
     <Row>
-      
+      <Col xs="12" sm ="12" md="2">
+      </Col>
       <Col xs="12" sm ="4" md="3">
           <Row>
             <Col md="6">
