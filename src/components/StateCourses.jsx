@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import '../styles/courses.css'
 
 import { Button } from 'react-bootstrap'
-//import CircularJSON from 'circular-json'
-//import CommonCart from './CommonCart.jsx';
 
 class StateCourses extends Component {
     

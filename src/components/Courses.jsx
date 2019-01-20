@@ -21,13 +21,11 @@ export default class Courses extends Component {
                   />
                   <CardBody>
                       <CardTitle>Card title</CardTitle>
-                      <CardText>
-                        <p style={{"margin":"10px","font-size":"1.6em"}}>
+                      <CardText style={{"margin":"10px","fontSize":"1.6em"}}>
                            Some quick example text to build on the card title and make
                            up the bulk of the card&apos;s content.
-                        </p>
                       </CardText>
-                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","font-weight":"bold", "font-size":"1.5em"}}>
+                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","fontWeight":"bold", "fontSize":"1.5em"}}>
                          
                          <span className="font-weight-bold">Apply</span>
                       </MDBBtn>
@@ -42,13 +40,11 @@ export default class Courses extends Component {
                   />
                   <CardBody>
                       <CardTitle>Card title</CardTitle>
-                      <CardText>
-                        <p style={{"margin":"10px","font-size":"1.6em"}}>
+                      <CardText style={{"margin":"10px","fontSize":"1.6em"}}>
                            Some quick example text to build on the card title and make
                            up the bulk of the card&apos;s content.
-                        </p>
                       </CardText>
-                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","font-weight":"bold", "font-size":"1.5em"}}>
+                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","fontWeight":"bold", "fontSize":"1.5em"}}>
                          
                          <span className="font-weight-bold">Apply</span>
                       </MDBBtn>
@@ -63,13 +59,11 @@ export default class Courses extends Component {
                   />
                   <CardBody>
                       <CardTitle>Card title</CardTitle>
-                      <CardText>
-                        <p style={{"margin":"10px","font-size":"1.6em"}}>
+                      <CardText style={{"margin":"10px","fontSize":"1.6em"}}>
                            Some quick example text to build on the card title and make
                            up the bulk of the card&apos;s content.
-                        </p>
                       </CardText>
-                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","font-weight":"bold", "font-size":"1.5em"}}>
+                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","fontWeight":"bold", "fontSize":"1.5em"}}>
                         
                          <span className="font-weight-bold">Apply</span>
                       </MDBBtn>
@@ -84,13 +78,11 @@ export default class Courses extends Component {
                   />
                   <CardBody>
                       <CardTitle>Card title</CardTitle>
-                      <CardText>
-                        <p style={{"margin":"10px","font-size":"1.6em"}}>
+                      <CardText style={{"margin":"10px","fontSize":"1.6em"}}>
                            Some quick example text to build on the card title and make
                            up the bulk of the card&apos;s content.
-                        </p>
                       </CardText>
-                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","font-weight":"bold", "font-size":"1.5em"}}>
+                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","fontWeight":"bold", "fontSize":"1.5em"}}>
                          
                          <span className="font-weight-bold">Apply</span>
                       </MDBBtn>

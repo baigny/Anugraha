@@ -1,9 +1,22 @@
 export const HOMEPAGE_CAROUSEL_IMAGES = [
     {
+      original: 'res/images/people-woman-coffee-meeting.jpg',
+      description: 'Canteen',
+      link: '/facilities'
+    },
+    {
       original: 'res/images/pexels-photo-1370296.jpeg',
     },
     {
       original: 'res/images/pexels-photo-267885.jpeg',
+      description: 'Value Based Education',
+    },
+    {
+      original: 'res/images/pexels-photo-267885 Cropped.jpg',
+      description: 'Value Based Education',
+    },
+    {
+      original: 'res/images/pexels-photo-26.jpeg',
       description: 'Value Based Education',
     },
     {
@@ -25,7 +38,7 @@ export const HOMEPAGE_CAROUSEL_IMAGES = [
       original: 'res/images/pexels-photo-1487953.jpeg',
       description: 'Dedicated Prayer Halls',
       link: '/facilities'
-    }
+    },
   ]
 
-  //
+//

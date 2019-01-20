@@ -4,6 +4,7 @@ import '../styles/home.css'
 import {Jumbotron, Grid,  Button} from 'react-bootstrap';
 
 import HomePageCarousel from './HomePageCarousel.jsx';
+import HomePageCarousel2 from './HomePageCarousel2.jsx';
 
 class Home extends Component {
   render() {
@@ -11,6 +12,8 @@ class Home extends Component {
         <div>
 			
             <HomePageCarousel/>
+            {/* <HomePageCarousel2/> */}
+                  
             
             <Grid>
 							<Jumbotron>

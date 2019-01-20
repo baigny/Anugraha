@@ -7,6 +7,26 @@ import '../styles/primaryNavbar.css'
 
 
 export default class PrimaryNavbar extends Component {
+  /* constructor(props) {
+    super(props);        
+    this.state = {
+        activeKey: 1
+    };
+  }
+
+  componentDidMount() {
+    console.log('ewew')
+    this.setState({
+      activeKey: window.location.href
+    })
+  }
+
+  handleSelect = (selectedKey) => {
+    this.setState({
+      activeKey: selectedKey
+    })
+  } */
+
   render() {
     return (
       <div > 
@@ -20,7 +40,7 @@ export default class PrimaryNavbar extends Component {
               <Navbar.Toggle/>
             </Navbar.Header>
             <Navbar.Collapse>
-              <Nav pullRight>
+              <Nav pullRight bsStyle="pills" className="custom-pills" activeHref={window.location.pathname}/*  onSelect={this.handleSelect} */>
                 <NavItem eventKey={1} componentClass={Link} href="/" to="/">
                   HOME
                  </NavItem> 
