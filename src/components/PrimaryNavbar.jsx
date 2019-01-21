@@ -37,35 +37,35 @@ export default class PrimaryNavbar extends Component {
                   <img
                     src="res/Anugraha logo.png"
                     alt=""
-                    /* className="img-fluid rounded z-depth-1" */
+                    className="img-fluid rounded"
                     />
                 </Link>
               </Navbar.Brand>
               <Navbar.Toggle/>
             </Navbar.Header>
             <Navbar.Collapse>
-              <Nav pullRight bsStyle="pills" className="custom-pills" activeHref={window.location.pathname}/*  onSelect={this.handleSelect} */>
+              <Nav pullRight activeHref={window.location.pathname}/*  onSelect={this.handleSelect} */>
                 <NavItem eventKey={1} componentClass={Link} href="/" to="/">
                   HOME
-                 </NavItem> 
-                 <NavItem eventKey={2} componentClass={Link} href="/about" to="/about">
+                </NavItem> 
+                <NavItem eventKey={2} componentClass={Link} href="/about" to="/about">
                  ABOUT
-                 </NavItem> 
-                 <NavItem eventKey={3} componentClass={Link} href="/courses" to="/courses">
+                </NavItem> 
+                <NavItem eventKey={3} componentClass={Link} href="/courses" to="/courses">
                   COURSES
-                 </NavItem> 
-                 <NavItem eventKey={4} componentClass={Link} href="/gallery" to="/gallery">
+                </NavItem> 
+                <NavItem eventKey={4} componentClass={Link} href="/gallery" to="/gallery">
                   GALLERY
-                 </NavItem> 
-                 <NavItem eventKey={5} componentClass={Link} href="/blog" to="/blog">
+                </NavItem> 
+                <NavItem eventKey={5} componentClass={Link} href="/blog" to="/blog">
                   BLOG
-                 </NavItem> 
-                 <NavItem eventKey={6} componentClass={Link} href="/news"  to="/news">
+                </NavItem> 
+                <NavItem eventKey={6} componentClass={Link} href="/news"  to="/news">
                   NEWS
-                 </NavItem> 
-                 <NavItem eventKey={7} componentClass={Link} href="/contact"  to="/contact">
+                </NavItem> 
+                <NavItem eventKey={7} componentClass={Link} href="/contact"  to="/contact">
                   CONTACT
-                 </NavItem> 
+                </NavItem> 
               </Nav>
             </Navbar.Collapse>
           </Navbar>        

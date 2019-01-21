@@ -3,7 +3,10 @@
     margin-top:.5em;
     
 }
-
+.contact-form{
+    padding: 25px;
+}
+/* 
 .margin-rights{
     margin-right: 1.0em;
 }
@@ -40,4 +43,4 @@ address {
 }
 .paddingRight{
     padding-right:2em;
-}
+} */

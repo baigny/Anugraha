@@ -14,18 +14,20 @@ export default class Contact extends Component {
             <MDBRow>
               <MDBCol lg="7">
                 <MDBCard className="mrbt">
-                  <MDBCardBody className="form">
+                  <MDBCardBody className="contact-form">
                           
                         <MDBRow>
                           <MDBCol md="12">
                             <div>
-                              <h2 className="para"><MDBIcon icon="envelope" className=" margin-rights" />
-                              Write to us:</h2>
+                              <h3 className="mt-4">
+                                <MDBIcon icon="envelope" className="pr-2" />
+                                Write to us:
+                              </h3>
                             </div>
                           </MDBCol>
                         </MDBRow>
                         <MDBRow>
-                          <MDBCol md="6" className="paddingLeft" style={{"paddingRight":"2em"}}>
+                          <MDBCol md="6" className="paddingLeft">
                             <div className="md-form mb-0">
                               <MDBInput
                                 type="text"
@@ -35,7 +37,7 @@ export default class Contact extends Component {
                               />
                             </div>
                           </MDBCol>
-                          <MDBCol md="6" className="paddingLeft" style={{"paddingRight":"2em"}}>
+                          <MDBCol md="6" className="paddingLeft">
                             <div className="md-form mb-5 ">
                               <MDBInput
                                 type="text"
@@ -47,7 +49,7 @@ export default class Contact extends Component {
                           </MDBCol>
                         </MDBRow>
                         <MDBRow>
-                          <MDBCol md="6" className="paddingLeft" style={{"paddingRight":"2em"}}>
+                          <MDBCol md="6" className="paddingLeft">
                             <div className="md-form mb-0">
                               <MDBInput
                                 type="text"
@@ -56,7 +58,7 @@ export default class Contact extends Component {
                               />
                             </div>
                           </MDBCol>
-                          <MDBCol md="6"className="paddingLeft" style={{"paddingRight":"2em"}}>
+                          <MDBCol md="6"className="paddingLeft">
                             <div className="md-form mb-0">
                               <MDBInput
                                 type="text"
@@ -67,7 +69,7 @@ export default class Contact extends Component {
                           </MDBCol>
                         </MDBRow>
                         <MDBRow>
-                          <MDBCol md="12" className="paddingLeft" style={{"paddingRight":"2em"}}>
+                          <MDBCol md="12" className="paddingLeft">
                             <div className="md-form mb-0">
                               <MDBInput
                                 type="textarea"
@@ -134,31 +136,31 @@ export default class Contact extends Component {
                               </address>
                             </MDBCol>
                             <MDBCol md="4">   
-                        <ul className="list-inline list-unstyled social float-right ">
-                         <li className="list-inline-item">
-                            <a href="#!" className=" fa-lg w-ic">
-                            <MDBIcon  icon="twitter" />
-                            </a>
-                          </li>
-                          <li className="list-inline-item">
-                              <a href="#!" className=" fa-lg w-ic">
-                                <MDBIcon icon="facebook" />
-                              </a>
-                          </li>
-                          <li className="list-inline-item">
-                               <a href="#!" className=" fa-lg w-ic">
-                                  <MDBIcon icon="instagram" />
-                               </a>
-                          </li>
-                          <li className="list-inline-item">
-                             <a href="#!" className="fa-lg w-ic">
-                                <MDBIcon icon="linkedin-in" />
-                             </a>
-                          </li>
-                        </ul>
-          </MDBCol>
-          </MDBRow>  
-                </MDBCardBody>
+                              <ul className="list-inline list-unstyled social float-right ">
+                              <li className="list-inline-item">
+                                  <a href="#!" className=" fa-lg w-ic">
+                                  <MDBIcon  icon="twitter" />
+                                  </a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a href="#!" className=" fa-lg w-ic">
+                                      <MDBIcon icon="facebook" />
+                                    </a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a href="#!" className=" fa-lg w-ic">
+                                        <MDBIcon icon="instagram" />
+                                    </a>
+                                </li>
+                                <li className="list-inline-item">
+                                  <a href="#!" className="fa-lg w-ic">
+                                      <MDBIcon icon="linkedin-in" />
+                                  </a>
+                                </li>
+                              </ul>
+                            </MDBCol>
+                          </MDBRow>  
+                  </MDBCardBody>
                 </MDBCard>
               </MDBCol>
             </MDBRow>
@@ -170,18 +172,15 @@ export default class Contact extends Component {
             <MDBRow>
               <MDBCol lg="12">                    
                 <div
-                      id="map-container"
-                      className="rounded z-depth-1-half map-container mrbt"
-                      style={{ height: "400px" }}
-                >
-                <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.0494258304548!2d75.07174561418509!3d12.8400826909422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4a40f48a87bb3%3A0x93ed297f0496cf27!2sAnugraha+Institutions!5e0!3m2!1sen!2sin!4v1548073307235"
-                        title="This is a unique title"
-                        width="100%"
-                        height="100%"
-                        frameBorder="0"
-                        style={{ border: 0 }}
-                />
+                  id="map-container"
+                  className="rounded z-depth-1-half map-container mrbt">
+                  <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.0494258304548!2d75.07174561418509!3d12.8400826909422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4a40f48a87bb3%3A0x93ed297f0496cf27!2sAnugraha+Institutions!5e0!3m2!1sen!2sin!4v1548073307235"
+                          title="This is a unique title"
+                          width="100%"
+                          height="100%"
+                          frameBorder="0"
+                  />
                 </div>         
                 </MDBCol>
             </MDBRow>

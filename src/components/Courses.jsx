@@ -14,18 +14,18 @@ export default class Courses extends Component {
         <Container fluid className=" text-md-left">
           <Row>
             <Col md="3">
-               <Card style={{ "width": "100%", "margin":"10px" }}>
+               <Card>
                  <CardImage
                    className="img-fluid"
                    src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
                   />
                   <CardBody>
                       <CardTitle>Card title</CardTitle>
-                      <CardText style={{"margin":"10px","fontSize":"1.6em"}}>
+                      <CardText>
                            Some quick example text to build on the card title and make
                            up the bulk of the card&apos;s content.
                       </CardText>
-                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","fontWeight":"bold", "fontSize":"1.5em"}}>
+                      <MDBBtn outline>
                          
                          <span className="font-weight-bold">Apply</span>
                       </MDBBtn>
@@ -33,18 +33,18 @@ export default class Courses extends Component {
                </Card>
             </Col>
             <Col md="3">
-               <Card style={{ "width": "100%", "margin":"10px" }}>
+               <Card>
                  <CardImage
                    className="img-fluid"
                    src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
                   />
                   <CardBody>
                       <CardTitle>Card title</CardTitle>
-                      <CardText style={{"margin":"10px","fontSize":"1.6em"}}>
+                      <CardText>
                            Some quick example text to build on the card title and make
                            up the bulk of the card&apos;s content.
                       </CardText>
-                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","fontWeight":"bold", "fontSize":"1.5em"}}>
+                      <MDBBtn outline>
                          
                          <span className="font-weight-bold">Apply</span>
                       </MDBBtn>
@@ -52,18 +52,18 @@ export default class Courses extends Component {
                </Card>
             </Col>
             <Col md="3">
-               <Card style={{ "width": "100%", "margin":"10px" }}>
+               <Card>
                  <CardImage
                    className="img-fluid"
                    src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
                   />
                   <CardBody>
                       <CardTitle>Card title</CardTitle>
-                      <CardText style={{"margin":"10px","fontSize":"1.6em"}}>
+                      <CardText>
                            Some quick example text to build on the card title and make
                            up the bulk of the card&apos;s content.
                       </CardText>
-                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","fontWeight":"bold", "fontSize":"1.5em"}}>
+                      <MDBBtn outline>
                         
                          <span className="font-weight-bold">Apply</span>
                       </MDBBtn>
@@ -71,18 +71,18 @@ export default class Courses extends Component {
                </Card>
             </Col>
             <Col md="3">
-               <Card style={{ "width": "100%", "margin":"10px" }}>
+               <Card>
                  <CardImage
                    className="img-fluid"
                    src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
                   />
                   <CardBody>
                       <CardTitle>Card title</CardTitle>
-                      <CardText style={{"margin":"10px","fontSize":"1.6em"}}>
+                      <CardText>
                            Some quick example text to build on the card title and make
                            up the bulk of the card&apos;s content.
                       </CardText>
-                      <MDBBtn outline  style={{"marginRight":"10px","borderRadius":"50px","fontWeight":"bold", "fontSize":"1.5em"}}>
+                      <MDBBtn outline>
                          
                          <span className="font-weight-bold">Apply</span>
                       </MDBBtn>

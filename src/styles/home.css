@@ -1,0 +1,17 @@
+.carousel-width-overflow{
+    width: 1500px;
+}
+
+.overflow-jumbotron{
+    top: -60px;
+    position: relative;
+}
+
+.jumbotron{
+    padding: 30px!important;
+}
+
+.jumbotron {
+    font-weight: 300;
+    text-align: justify;
+}

@@ -29,3 +29,11 @@
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
+
+.image-gallery-play-button {
+  bottom: 60px;
+}
+
+.image-gallery-bullets {
+  bottom: 80px;
+}
