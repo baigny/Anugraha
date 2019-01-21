@@ -1,0 +1,43 @@
+.mrbt{
+    margin-bottom:.5em;
+    margin-top:.5em;
+    
+}
+
+.margin-rights{
+    margin-right: 1.0em;
+}
+
+.para{
+    margin: 0 0 0 1em; 
+    padding: 0; 
+    }
+
+ul { 
+    margin: 0 0 0 1em; 
+    padding: 0; 
+    }
+
+
+address { 
+        margin: 0 0 0 1em; 
+        padding: 0; 
+}
+
+.social{
+   
+        margin: 0 0 0 1em; 
+        padding: 0; 
+       
+}
+
+.hraddress{
+    width:60%;
+}
+
+.paddingLeft{
+    padding-left:2em;
+}
+.paddingRight{
+    padding-right:2em;
+}
