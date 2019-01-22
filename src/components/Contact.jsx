@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput, MDBContainer } from "mdbreact";
-
+import{Form, FormGroup,FormControl ,Col, Row, ControlLabel,Grid} from 'react-bootstrap';
 import '../styles/contact.css'
 
 
@@ -8,183 +7,145 @@ import '../styles/contact.css'
 export default class Contact extends Component {
   render() {
     return (
-     
-        <section className="contact-section my-5">
-          <MDBContainer >
-            <MDBRow>
-              <MDBCol lg="7">
-                <MDBCard className="mrbt">
-                  <MDBCardBody className="contact-form">
+      <section className="contact-section ">
+        <div className="container">
+          <Col>
+          <i className="fa fa-comments fa-4x" aria-hidden="true"></i>
+          <h1 className="heads">Write to Us:</h1>
+          </Col>
+          <Form horizontal>
+            <FormGroup controlId="formHorizontalName">
+              <Col sm={6}>
+                <ControlLabel>Full Name:</ControlLabel>
+                <FormControl type="Name" placeholder="Enter your Name" />
+              </Col>
+              
+            </FormGroup>
+             <FormGroup controlId="formHorizontalEmail">
+              
+              <Col sm={6}>
+                <ControlLabel>Email ID:</ControlLabel>
+                <FormControl type="email" placeholder="Enter your Email ID" />
+              </Col>
+             
+            </FormGroup>
+
+            <FormGroup controlId="formHorizontalEmail">
+              <Col sm={6}>
+                <ControlLabel>Subject:</ControlLabel>
+                <FormControl type="Subject" placeholder="Enter the Subject" />
+              </Col>
+            </FormGroup>
+            <FormGroup controlId="formControlsTextarea">
+              <Col sm={6}>
+                <ControlLabel>Message:</ControlLabel>
+                <FormControl componentClass="textarea" rows="5" placeholder="Enter the Question or your Feedback" />
+              </Col>
                           
-                        <MDBRow>
-                          <MDBCol md="12">
-                            <div>
-                              <h3 className="mt-4">
-                                <MDBIcon icon="envelope" className="pr-2" />
-                                Write to us:
-                              </h3>
-                            </div>
-                          </MDBCol>
-                        </MDBRow>
-                        <MDBRow>
-                          <MDBCol md="6" className="paddingLeft">
-                            <div className="md-form mb-0">
-                              <MDBInput
-                                type="text"
-                                id="form-contact-name"
-                                label="Your name"
-                               
-                              />
-                            </div>
-                          </MDBCol>
-                          <MDBCol md="6" className="paddingLeft">
-                            <div className="md-form mb-5 ">
-                              <MDBInput
-                                type="text"
-                                id="form-contact-email"
-                                label="Your email"
-                                
-                              />
-                            </div>
-                          </MDBCol>
-                        </MDBRow>
-                        <MDBRow>
-                          <MDBCol md="6" className="paddingLeft">
-                            <div className="md-form mb-0">
-                              <MDBInput
-                                type="text"
-                                id="form-contact-phone"
-                                label="Your phone"
-                              />
-                            </div>
-                          </MDBCol>
-                          <MDBCol md="6"className="paddingLeft">
-                            <div className="md-form mb-0">
-                              <MDBInput
-                                type="text"
-                                id="form-contact-company"
-                                label="Your company"
-                              />
-                            </div>
-                          </MDBCol>
-                        </MDBRow>
-                        <MDBRow>
-                          <MDBCol md="12" className="paddingLeft">
-                            <div className="md-form mb-0">
-                              <MDBInput
-                                type="textarea"
-                                id="form-contact-message"
-                                label="Your message"
-                              />
-                              <MDBBtn rounded color="blue">
-                                <MDBIcon icon="paper-plane" />
-                              </MDBBtn>
-                            </div>
-                          </MDBCol>
-                        </MDBRow>
-                  </MDBCardBody>
-                </MDBCard> 
-              </MDBCol>
-              <MDBCol lg="5">
-                <MDBCard>
-                  <MDBCardBody   className=" indigo darken-4 contact h-100 mrbt white-text">
-                
+            </FormGroup>
+            <FormGroup controlId="formControlsbutton">
+              <Col sm={6}>
+              <button type="button" className="buttons ">Submit</button> 
+              </Col>
+                          
+            </FormGroup>
+            
+          </Form>
+        </div>
+       
+       
+       
+       
+        <Grid  fluid>
+          <Row className="margins">
+             <Col md={5} className="colors card" >
+              <div>             
                   <h1 className="text-center font-weight-bold">Contact Information</h1>
-                  <hr className="hr-light text-center hraddress" />
-                  <h2 className="text-center"> PUC Department</h2>          
-                         
-                        <ul className=" list-unstyled ">
-                          <li  >
-                             <p className="" > 
-                              <MDBIcon icon="phone" className="margin-rights  "  />
-                              +91 8255275500
-                              </p>
+                  <h2 className="text-center"> PUC Department</h2>    
+              </div>
+              <div>
+                  <ul className=" list-unstyled ">
+                          <li>                             
+                             <i className="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                             <p className="heads" >  +91 8255275500</p>
                           </li>
                           <li>
-                            <p>
-                              <MDBIcon icon="envelope"  className="margin-rights"  />
-                              anugraha.wpuc@gmail.com 
-                            </p>
+                             <i className="fa fa-at fa-2x" aria-hidden="true"></i>
+                             <p className="heads" ><a className="anchors" href="mailto:anugraha.wpuc@gmail.com">PU College</a></p>
                           </li>
-                        </ul>      
-                  <h2 className="my-4 pb-2 text-center font-weight-bold">Degree Department</h2>
-                        <ul className="text-lg-left list-unstyled ml-4">
+                  </ul>  
+              </div>
+              <div>             
+                 <h2 className="text-center"> Degree Department</h2>    
+              </div>
+              <div>
+                  <ul className=" list-unstyled ">
+                          <li>                             
+                             <i className="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                             <p className="heads" >  +91 8255275500</p>
+                          </li>
                           <li>
-                           <p>
-                            <MDBIcon icon="phone" className="margin-rights" />+91 8255275500
-                           </p>
+                             <i className="fa fa-at fa-2x" aria-hidden="true"></i>
+                             <p className="heads" ><a className="anchors" href="mailto:anugraha.wpuc@gmail.com">Degree College</a></p>
                           </li>
-                          <li>
-                            <p>
-                              <MDBIcon icon="envelope" className="margin-rights" />
-                              anugraha.wpuc@gmail.com 
-                            </p>
-                          </li>
-                        </ul>
-                          
-                          <MDBRow>
-                            <MDBCol md="12">
-                         <h3 className="text-center font-weight-bold">Address Info</h3>
-                         <hr className="hr-light text-center hraddress" />
-                            </MDBCol>
-                             <MDBCol md="8">
-                              <address>
-                                Anugraha Women's College,<br/>
-                                Pattekodi, Golthamajal,<br/>
-                                Kalladka Post, <br/>
-                                Bantwal Taluq, P.O 574222.<br/>
-                              </address>
-                            </MDBCol>
-                            <MDBCol md="4">   
-                              <ul className="list-inline list-unstyled social float-right ">
+                  </ul>  
+              </div>
+              <div>             
+                
+                 <h2 className="text-center"> Address Information</h2>    
+              </div>   
+              <div>
+                 <Col md={6} >
+                 <i className="fa fa-address-card" aria-hidden="true"></i>
+                  <address className="headsss">
+                    Anugraha Women's College,<br/>
+                    Pattekodi, Golthamajal,<br/>
+                    Kalladka Post, <br/>
+                    Bantwal Taluq, P.O 574222.<br/>
+                  </address>            
+              </Col>
+                 <Col md={6} >
+                  <ul className="list-inline list-unstyled social float-right ">
                               <li className="list-inline-item">
                                   <a href="#!" className=" fa-lg w-ic">
-                                  <MDBIcon  icon="twitter" />
+                                  <i class="social-font fa fa-twitter" aria-hidden="true"></i>
                                   </a>
                                 </li>
                                 <li className="list-inline-item">
                                     <a href="#!" className=" fa-lg w-ic">
-                                      <MDBIcon icon="facebook" />
+                                    <i class=" social-font fa fa-facebook" aria-hidden="true"></i>
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
                                     <a href="#!" className=" fa-lg w-ic">
-                                        <MDBIcon icon="instagram" />
+                                    <i class=" social-font fa fa-instagram" aria-hidden="true"></i>
                                     </a>
                                 </li>
                                 <li className="list-inline-item">
                                   <a href="#!" className="fa-lg w-ic">
-                                      <MDBIcon icon="linkedin-in" />
+                                  <i class=" social-font fa fa-linkedin" aria-hidden="true"></i>
                                   </a>
                                 </li>
-                              </ul>
-                            </MDBCol>
-                          </MDBRow>  
-                  </MDBCardBody>
-                </MDBCard>
-              </MDBCol>
-            </MDBRow>
-                   
-                   
-                     
-                   
-          
-            <MDBRow>
-              <MDBCol lg="12">                    
+                  </ul>
+              </Col>
+              </div>
+            
+              </Col> 
+              <Col md={7} >
                 <div
-                  id="map-container"
-                  className="rounded z-depth-1-half map-container mrbt">
-                  <iframe
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.0494258304548!2d75.07174561418509!3d12.8400826909422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4a40f48a87bb3%3A0x93ed297f0496cf27!2sAnugraha+Institutions!5e0!3m2!1sen!2sin!4v1548073307235"
-                          title="This is a unique title"
-                          width="100%"
-                          height="100%"
-                          frameBorder="0"
-                  />
-                </div>         
-                </MDBCol>
-            </MDBRow>
-         </MDBContainer>
+                    id="map-container"
+                    className="rounded z-depth-1-half map-container mrbt">
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.0494258304548!2d75.07174561418509!3d12.8400826909422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba4a40f48a87bb3%3A0x93ed297f0496cf27!2sAnugraha+Institutions!5e0!3m2!1sen!2sin!4v1548073307235"
+                            title="This is a unique title"
+                            width="100%"
+                            height="480px"
+                            frameBorder="0"
+                    />
+                </div>  
+              </Col>         
+            </Row>
+          </Grid>
         </section>
       
     );

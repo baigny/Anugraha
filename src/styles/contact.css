@@ -1,46 +1,90 @@
-.mrbt{
-    margin-bottom:.5em;
-    margin-top:.5em;
+@import '../../node_modules/font-awesome/css/font-awesome.min.css';
+.buttons {
+    border: 4px solid blue;
+    border-radius: 40px;
+    background-color: white;
+    color: #2e2e2e;
+    padding: 15px 30px;
+    width:100%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.heads{
+        display: inline;
+        margin:1em;
+}
+
+.anchors{
+    font-weight: bolder;
+    text-transform: capitalize;
+    color:black;
+}
+
+.anchors:hover{
+    font-weight: bolder;
+    text-transform: capitalize;
+    color:black;
+}
+
+.anchors:visited{
+    font-weight: bolder;
+    text-transform: capitalize;
+    color:blue;
+    text-decoration:none;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  border:1px solid black;
+ 
+}
+
+.colors{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
-}
-.contact-form{
-    padding: 25px;
-}
-/* 
-.margin-rights{
-    margin-right: 1.0em;
+    color:black;
 }
 
-.para{
-    margin: 0 0 0 1em; 
-    padding: 0; 
-    }
-
-ul { 
-    margin: 0 0 0 1em; 
-    padding: 0; 
-    }
-
-
-address { 
-        margin: 0 0 0 1em; 
-        padding: 0; 
+.margins{
+    margin:1.5em;
 }
 
-.social{
-   
-        margin: 0 0 0 1em; 
-        padding: 0; 
-       
+.social-font {
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
 }
-
-.hraddress{
-    width:60%;
-}
-
-.paddingLeft{
-    padding-left:2em;
-}
-.paddingRight{
-    padding-right:2em;
-} */
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+    
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+    
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
