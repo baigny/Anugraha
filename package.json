@@ -9,6 +9,7 @@
     "react-animated-slider": "^1.1.4",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
+    "react-grid-gallery": "^0.5.3",
     "react-image-gallery": "^0.8.12",
     "react-photo-gallery": "^6.3.0",
     "react-router-dom": "^4.3.1",

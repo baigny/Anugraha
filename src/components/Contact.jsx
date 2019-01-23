@@ -7,131 +7,136 @@ import '../styles/contact.css'
 export default class Contact extends Component {
   render() {
     return (
-      <section className="contact-section ">
-        <div className="container">
-          <Col>
-          <i className="fa fa-comments fa-4x" aria-hidden="true"></i>
-          <h1 className="heads">Write to Us:</h1>
-          </Col>
-          <Form horizontal>
-            <FormGroup controlId="formHorizontalName">
-              <Col sm={6}>
-                <ControlLabel>Full Name:</ControlLabel>
-                <FormControl type="Name" placeholder="Enter your Name" />
-              </Col>
-              
-            </FormGroup>
-             <FormGroup controlId="formHorizontalEmail">
-              
-              <Col sm={6}>
-                <ControlLabel>Email ID:</ControlLabel>
-                <FormControl type="email" placeholder="Enter your Email ID" />
-              </Col>
-             
-            </FormGroup>
-
-            <FormGroup controlId="formHorizontalEmail">
-              <Col sm={6}>
-                <ControlLabel>Subject:</ControlLabel>
-                <FormControl type="Subject" placeholder="Enter the Subject" />
-              </Col>
-            </FormGroup>
-            <FormGroup controlId="formControlsTextarea">
-              <Col sm={6}>
-                <ControlLabel>Message:</ControlLabel>
-                <FormControl componentClass="textarea" rows="5" placeholder="Enter the Question or your Feedback" />
-              </Col>
-                          
-            </FormGroup>
-            <FormGroup controlId="formControlsbutton">
-              <Col sm={6}>
-              <button type="button" className="buttons ">Submit</button> 
-              </Col>
-                          
-            </FormGroup>
-            
-          </Form>
-        </div>
-       
-       
-       
-       
-        <Grid  fluid>
-          <Row className="margins">
-             <Col md={5} className="colors card" >
-              <div>             
-                  <h1 className="text-center font-weight-bold">Contact Information</h1>
-                  <h2 className="text-center"> PUC Department</h2>    
-              </div>
-              <div>
-                  <ul className=" list-unstyled ">
-                          <li>                             
-                             <i className="fa fa-mobile fa-2x" aria-hidden="true"></i>
-                             <p className="heads" >  +91 8255275500</p>
-                          </li>
-                          <li>
-                             <i className="fa fa-at fa-2x" aria-hidden="true"></i>
-                             <p className="heads" ><a className="anchors" href="mailto:anugraha.wpuc@gmail.com">PU College</a></p>
-                          </li>
-                  </ul>  
-              </div>
-              <div>             
-                 <h2 className="text-center"> Degree Department</h2>    
-              </div>
-              <div>
-                  <ul className=" list-unstyled ">
-                          <li>                             
-                             <i className="fa fa-mobile fa-2x" aria-hidden="true"></i>
-                             <p className="heads" >  +91 8255275500</p>
-                          </li>
-                          <li>
-                             <i className="fa fa-at fa-2x" aria-hidden="true"></i>
-                             <p className="heads" ><a className="anchors" href="mailto:anugraha.wpuc@gmail.com">Degree College</a></p>
-                          </li>
-                  </ul>  
-              </div>
-              <div>             
+      <section className="contact-section">
+        <div>
+          <Grid>
+            <Row className="margins display-flex">
+              <Col md={6}>
+                <Col md={12} className="card">
+                  <Col>
+                    <i className="fa fa-comments fa-4x" aria-hidden="true"></i>
+                    <h1 className="heads blue-text-header">Write to Us:</h1>
+                  </Col>
                 
-                 <h2 className="text-center"> Address Information</h2>    
-              </div>   
-              <div>
-                 <Col md={6} >
-                 <i className="fa fa-address-card" aria-hidden="true"></i>
-                  <address className="headsss">
-                    Anugraha Women's College,<br/>
-                    Pattekodi, Golthamajal,<br/>
-                    Kalladka Post, <br/>
-                    Bantwal Taluq, P.O 574222.<br/>
-                  </address>            
-              </Col>
-                 <Col md={6} >
-                  <ul className="list-inline list-unstyled social float-right ">
-                              <li className="list-inline-item">
-                                  <a href="#!" className=" fa-lg w-ic">
-                                  <i class="social-font fa fa-twitter" aria-hidden="true"></i>
-                                  </a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a href="#!" className=" fa-lg w-ic">
-                                    <i class=" social-font fa fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li className="list-inline-item">
-                                    <a href="#!" className=" fa-lg w-ic">
-                                    <i class=" social-font fa fa-instagram" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li className="list-inline-item">
-                                  <a href="#!" className="fa-lg w-ic">
-                                  <i class=" social-font fa fa-linkedin" aria-hidden="true"></i>
-                                  </a>
-                                </li>
-                  </ul>
-              </Col>
-              </div>
+                  <Form horizontal>
+                
+                    <FormGroup controlId="formHorizontalName">
+                      <Col md={12}>
+                        <ControlLabel>Full Name:</ControlLabel>
+                        <FormControl type="Name" placeholder="Enter your Name" />
+                      </Col>
+                    </FormGroup>
+                
+                    <FormGroup controlId="formHorizontalEmail">
+                      <Col md={12}>
+                        <ControlLabel>Email ID:</ControlLabel>
+                        <FormControl type="email" placeholder="Enter your Email ID" />
+                      </Col>
+                    </FormGroup>
+
+                    <FormGroup controlId="formHorizontalEmail">
+                      <Col md={12}>
+                        <ControlLabel>Subject:</ControlLabel>
+                        <FormControl type="Subject" placeholder="Enter the Subject" />
+                      </Col>
+                    </FormGroup>
             
+                    <FormGroup controlId="formControlsTextarea">
+                      <Col md={12}>
+                        <ControlLabel>Message:</ControlLabel>
+                        <FormControl componentClass="textarea" rows="5" placeholder="Enter the Question or your Feedback" />
+                      </Col>
+                    </FormGroup>
+            
+                    <FormGroup controlId="formControlsbutton">
+                      <Col md={12} className="text-center">
+                        <button type="button" className="buttons ">Submit</button> 
+                      </Col>
+                    </FormGroup>
+                    
+                  </Form>
+                </Col>
+              </Col>
+
+              <Col md={6} className="colors card " >
+                <div>             
+                    <h1 className="text-center blue-text-header">Contact Information</h1>
+                    <h2 className="text-center"> PUC Department</h2>    
+                </div>
+                <Col md={12}>
+                    <ul className="list-unstyled">
+                        <li>                             
+                          <i className="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                          <span className="heads" >  +91 8255275500</span>
+                        </li>
+                        <li>
+                          <i className="fa fa-at fa-2x" aria-hidden="true"></i>
+                          <span className="heads" ><a className="anchors" href="mailto:anugraha.wpuc@gmail.com">PU College</a></span>
+                        </li>
+                    </ul>  
+                </Col>
+                <div>             
+                  <h2 className="text-center"> Degree Department</h2>    
+                </div>
+                <Col md={12}>
+                    <ul className="list-unstyled">
+                        <li>                             
+                          <i className="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                          <span className="heads" >  +91 8255275500</span>
+                        </li>
+                        <li>
+                          <i className="fa fa-at fa-2x" aria-hidden="true"></i>
+                          <span className="heads" ><a className="anchors" href="mailto:anugraha.wpuc@gmail.com">Degree College</a></span>
+                        </li>
+                    </ul>  
+                </Col>
+                <div>             
+                  
+                  <h2 className="text-center"> Address Information</h2>    
+                </div>   
+                <div>
+                  <Col md={6} >
+                      <i className="fa fa-address-card" aria-hidden="true"></i>
+                        <address className="headsss">
+                          Anugraha Women's College,<br/>
+                          Pattekodi, Golthamajal,<br/>
+                          Kalladka Post, <br/>
+                          Bantwal Taluq, P.O 574222.<br/>
+                        </address>            
+                  </Col>
+                  <Col md={6} >
+                    <ul className="list-inline list-unstyled social pull-right">
+                        <li className="list-inline-item">
+                          <a href="#!" className=" fa-lg w-ic">
+                            <i className="social-font fa fa-twitter" aria-hidden="true"></i>
+                          </a>
+                        </li>
+                        <li className="list-inline-item">
+                            <a href="#!" className=" fa-lg w-ic">
+                              <i className=" social-font fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li className="list-inline-item">
+                            <a href="#!" className=" fa-lg w-ic">
+                              <i className=" social-font fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                  </Col>
+                </div>
               </Col> 
-              <Col md={7} >
+
+
+
+            </Row>
+          </Grid>
+        </div>
+
+       
+        <Grid>
+          <Row className="margins">
+              <Col md={12} >
                 <div
                     id="map-container"
                     className="rounded z-depth-1-half map-container mrbt">

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ImageGallery from 'react-image-gallery';
 import '../styles/homePageCarousel.css';
-import * as allConstants from '../constants/AllConstants.jsx';
+import { HOMEPAGE_CAROUSEL_IMAGES } from '../constants/AllConstants.jsx';
 //import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
 //import { Link } from 'react-router-dom';
 
@@ -47,7 +47,7 @@ export default class HomePageCarousel extends Component {
         }
   render() {
 
-    const images = allConstants.HOMEPAGE_CAROUSEL_IMAGES
+    const images = HOMEPAGE_CAROUSEL_IMAGES
 
     return (
       <ImageGallery 

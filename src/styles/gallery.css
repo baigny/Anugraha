@@ -1,1 +1,13 @@
 @import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
+.custom-overlay-style{
+    background-color: rgba(0, 0, 0, 0.8);
+    max-height: 240px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 2px;
+    font-size: 90%
+}
