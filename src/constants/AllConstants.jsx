@@ -43,12 +43,17 @@ export const HOMEPAGE_CAROUSEL_IMAGES = [
     },
   ]
 
-export const GALLERY_IMAGES = [
+{/* ******Gallery_Images******* */}
+
+{/* ******CUSTOM OVERLAY STYLE //CAMPUS//******* */}
+
+
+export const GALLERY_IMAGES_CAMPUS = [
     {
-      src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-      thumbnail: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+      src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+      thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
       thumbnailWidth: 320,
-      thumbnailHeight: 174,
+      thumbnailHeight: 212,
       caption: "After Rain (Jeshu John - designerspics.com)",
       customOverlay: (<div className="custom-overlay-style">sdadad</div>)
     },
@@ -57,21 +62,365 @@ export const GALLERY_IMAGES = [
       thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
       thumbnailWidth: 320,
       thumbnailHeight: 212,
-      tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
+      caption: "After Rain (Jeshu John - designerspics.com)",
+      customOverlay: (<div className="custom-overlay-style">sdadad</div>)
+    },
+    {
+      src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+      thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+      thumbnailWidth: 320,
+      thumbnailHeight: 212,
+      caption: "After Rain (Jeshu John - designerspics.com)",
+      customOverlay: (<div className="custom-overlay-style">sdadad</div>)
+    },
+    {
+      src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+      thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+      thumbnailWidth: 320,
+      thumbnailHeight: 212,
+      caption: "After Rain (Jeshu John - designerspics.com)",
+      customOverlay: (<div className="custom-overlay-style">sdadad</div>)
+
+    }
+    ,
+    {
+      src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+      thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+      thumbnailWidth: 320,
+      thumbnailHeight: 212,
+      caption: "After Rain (Jeshu John - designerspics.com)",
+      customOverlay: (<div className="custom-overlay-style">sdadad</div>)
+    },
+    {
+      src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+      thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+      thumbnailWidth: 320,
+      thumbnailHeight: 212,
+      caption: "After Rain (Jeshu John - designerspics.com)",
+      customOverlay: (<div className="custom-overlay-style">sdadad</div>)
+    },
+    {
+      src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+      thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+      thumbnailWidth: 320,
+      thumbnailHeight: 212,
+      caption: "After Rain (Jeshu John - designerspics.com)",
+      customOverlay: (<div className="custom-overlay-style">sdadad</div>)
+
+    },
+    {
+      src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+      thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+      thumbnailWidth: 320,
+      thumbnailHeight: 212,
+      caption: "After Rain (Jeshu John - designerspics.com)",
+      customOverlay: (<div className="custom-overlay-style">sdadad</div>)
+    }  
+  ]
+
+  {/* ******Tags + Caption STYLE //FACILITIES//******* */}
+
+  export const GALLERY_IMAGES_FACILTIIES = [
+    {
+      src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+      thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
+      thumbnailWidth: 320,
+      thumbnailHeight: 212,
+      tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+      caption: "Boats (Jeshu John - designerspics.com)"
+    },
+    {
+      src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+      thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+      thumbnailWidth: 320,
+      thumbnailHeight: 212,
+      tags: [{value: "Facilities", title: "Facilities"}, {value: "Masjid", title: "Masjid"}],
       caption: "Boats (Jeshu John - designerspics.com)"
     },
     {
       src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
       thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
       thumbnailWidth: 320,
-      thumbnailHeight: 212
+      thumbnailHeight: 212,
+      tags: [{value: "Facilities", title: "Facilities"}, {value: "Sports Ground", title: "Sports Ground"}],
+      caption: "Boats (Jeshu John - designerspics.com)"
     },
     {
       src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
       thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
       thumbnailWidth: 320,
-      thumbnailHeight: 212
-    }
-  ]
+      thumbnailHeight: 212,
+      tags: [{value: "Facilities", title: "Facilities"}, {value: "Library", title: "Library"}],
+      caption: "Boats (Jeshu John - designerspics.com)"
+    },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "Masjid", title: "Masjid"}],
+    caption: "Boats (Jeshu John - designerspics.com)"
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "Sports Ground", title: "Sports Ground"}],
+    caption: "Boats (Jeshu John - designerspics.com)"
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "Masjid", title: "Masjid"}],
+    caption: "Boats (Jeshu John - designerspics.com)"
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "Sports Ground", title: "Sports Ground"}],
+    caption: "Boats (Jeshu John - designerspics.com)"
+  },
+  
+]
 
-//
+  {/* ******Caption + caption //annual day//******* */}
+export const GALLERY_IMAGES_ANNUAL_DAY = [
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg", 
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "After Rain (Jeshu John - designerspics.com)",
+    thumbnailCaption: "After Rain" 
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "After Rain (Jeshu John - designerspics.com)",
+    thumbnailCaption: "After Rain"
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "After Rain (Jeshu John - designerspics.com)",
+    thumbnailCaption: "After Rain"
+  },  
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "After Rain (Jeshu John - designerspics.com)",
+    thumbnailCaption: "After Rain"
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "After Rain (Jeshu John - designerspics.com)",
+    thumbnailCaption: "After Rain"
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "After Rain (Jeshu John - designerspics.com)",
+    thumbnailCaption: "After Rain"
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "After Rain (Jeshu John - designerspics.com)",
+    thumbnailCaption: "After Rain"
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "After Rain (Jeshu John - designerspics.com)",
+    thumbnailCaption: "After Rain"
+  },
+  
+  
+]
+
+ {/* ******only tags //sports day//******* */}
+export const GALLERY_IMAGES_SPORTS_DAY= [
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+    
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  }
+]
+
+{/* ******tags+ custom overlay //life at anugraha******* */}
+
+export const GALLERY_IMAGES_LIFE_AT_ANUGRAHA= [
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
+    thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",                   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  },
+  {
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",   
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    customOverlay: (<div className="custom-overlay-style">sdadad</div>),
+    tags: [{value: "Facilities", title: "Facilities"}, {value: "School Bus", title: "School Bus"}],
+  }
+  
+]

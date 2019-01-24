@@ -11,3 +11,32 @@
     padding: 2px;
     font-size: 90%
 }
+
+
+.gallery-image{
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px){
+    .tile > img{
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 992px){
+    .tile > img{
+        width: 50%
+    }
+}
+/* 
+@media screen and (min-width: 1200px){
+    .tile > img{
+        width: 25%
+    }
+} */
+
+@media screen and (min-width: 1140px){
+    .tile{
+        width: 285px
+    }
+}
