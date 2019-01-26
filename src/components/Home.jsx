@@ -14,7 +14,7 @@ class Home extends Component {
           <div className="container carousel-width-overflow">
             {/* <HomePageCarousel/> */}
             {/* <HomePageCarousel2/> */}
-            {1 ?
+            {0 ?
               <HomePageCarousel/>
             :
               <HomePageCarousel2/>

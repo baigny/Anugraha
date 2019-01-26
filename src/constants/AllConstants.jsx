@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 import React from 'react';
 
 export const HOMEPAGE_CAROUSEL_IMAGES = [
@@ -41,12 +42,7 @@ export const HOMEPAGE_CAROUSEL_IMAGES = [
       description: 'Dedicated Prayer Halls',
       link: '/facilities'
     },
-  ]
-
-{/* ******Gallery_Images******* */}
-
-{/* ******CUSTOM OVERLAY STYLE //CAMPUS//******* */}
-
+]
 
 export const GALLERY_IMAGES_CAMPUS = [
     {
@@ -118,7 +114,7 @@ export const GALLERY_IMAGES_CAMPUS = [
     }  
   ]
 
-  {/* ******Tags + Caption STYLE //FACILITIES//******* */}
+  //  ******Tags + Caption STYLE FACILITIES******* 
 
   export const GALLERY_IMAGES_FACILTIIES = [
     {
@@ -188,7 +184,7 @@ export const GALLERY_IMAGES_CAMPUS = [
   
 ]
 
-  {/* ******Caption + caption //annual day//******* */}
+  // ******Caption + caption annual day*******
 export const GALLERY_IMAGES_ANNUAL_DAY = [
   {
     src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
@@ -258,7 +254,7 @@ export const GALLERY_IMAGES_ANNUAL_DAY = [
   
 ]
 
- {/* ******only tags //sports day//******* */}
+  // ******only tags sports day*******
 export const GALLERY_IMAGES_SPORTS_DAY= [
   {
     src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
@@ -291,7 +287,7 @@ export const GALLERY_IMAGES_SPORTS_DAY= [
   }
 ]
 
-{/* ******tags+ custom overlay //life at anugraha******* */}
+// ******tags+ custom overlay life at anugraha*******
 
 export const GALLERY_IMAGES_LIFE_AT_ANUGRAHA= [
   {
