@@ -22,9 +22,9 @@ class About extends Component {
                     </MDBRow>
                 </MDBContainer>
                 
-                <MDBContainer className="mb">          
-                    <MDBRow >
-                         <MDBCol  md="6"className="mb-lg-0 mb-5">
+                <MDBContainer>          
+                    <MDBRow className="padding-0">
+                         <MDBCol md="6" className="mb-lg-0 mb-5 padding-0">
                                 <img
                                 src="https://mdbootstrap.com/img/Photos/Others/images/83.jpg"
                                 alt=""
@@ -74,7 +74,7 @@ class About extends Component {
                     </MDBRow>
                 </MDBContainer>
                 <MDBContainer className="mb">
-                    <MDBRow>
+                    <MDBRow className="padding-0">
                         <MDBCol md="6">
                             <MDBRow className="mb-3">
                                 <MDBCol md="1" size="2">
@@ -111,7 +111,7 @@ class About extends Component {
                                 </MDBCol>
                             </MDBRow>
                         </MDBCol>
-                        <MDBCol md="6">
+                        <MDBCol md="6" className="padding-0">
                             <img
                             src="https://mdbootstrap.com/img/Photos/Others/images/82.jpg"
                             alt=""

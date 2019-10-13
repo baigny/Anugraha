@@ -57,8 +57,8 @@ export default class PrimaryNavbar extends Component {
                 <NavItem eventKey={4} componentClass={Link} href="/gallery" to="/gallery">
                   GALLERY
                 </NavItem> 
-                <NavItem eventKey={5} componentClass={Link} href="/blog" to="/blog">
-                  BLOG
+                <NavItem eventKey={5} componentClass={Link} href="/events" to="/events">
+                  EVENTS
                 </NavItem> 
                 <NavItem eventKey={6} componentClass={Link} href="/news"  to="/news">
                   NEWS

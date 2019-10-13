@@ -6,7 +6,7 @@ import '../styles/blog.css'
 
 
 
-export default class About extends Component {
+export default class Events extends Component {
   render() {
     return (
       <section className="blog-section">

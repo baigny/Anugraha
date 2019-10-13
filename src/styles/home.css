@@ -5,13 +5,94 @@
 .overflow-jumbotron{
     top: -60px;
     position: relative;
+    z-index: 1;
 }
 
 .jumbotron{
     padding: 30px!important;
-}
-
-.jumbotron {
     font-weight: 300;
     text-align: justify;
 }
+
+.home-admissions-bg {
+    background: url(../images/college_building_1.jpg);
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    background-origin: initial;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    position: relative;
+    z-index: 0;
+    background-attachment: fixed;
+}
+
+.bg-opacity-black:before {
+    background: rgba(0, 0, 0, 0.4); 
+    content: ""; 
+    height: 100%; 
+    left: 0; 
+    position: absolute; 
+    top: 0; 
+    width: 100%; 
+    z-index: -1;
+}
+
+.admissions-image-holder .section-title-2 {
+    display: inline-block;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    width: 100%;
+}
+
+
+.admissions-image-holder {position: relative;height: 515px;}
+.admissions-text-box {background: #2b679c; padding: 90px 70px 40px 90px;}
+
+@media(max-width:768px) {
+    /* .head-number{z-index:5;}.home-beyond{ padding:0px !important;}
+    .beyond-title{ font-size:16px !important;}
+    .beyond-wrapper .description h3{font-size:16px !important; line-height:10px !important;}
+    .news-box-img{width:100% !important; margin:10px !important; float:none;}
+    .carousel-control .achievementsCarousel-control-left {background: none;}
+    .carousel-control .achievementsCarousel-control-right{background: none;left:0%;} */
+    .admissions-text-box{padding:15px;}
+    .feature7 .feature7-icon{width:100%; border:0;}
+    .feature7 .feature7-info{ text-align:center;}
+    /* .home-achievements h1{margin-bottom:20px;}
+    .home-announcements h1{margin-top:30px;margin-bottom:0px;} */
+    .home-admissions-bg{background-position: left top;}
+}
+
+.home-admissions{
+    top: -60px;
+    position: relative;
+}
+.section-title-2 {margin-bottom: 60px;}
+.text-center {text-align: center !important;}
+.section-title-2 h2 {margin-top: 0px;text-transform: capitalize;margin-bottom: 0px; font-size:40px;}
+.section-title-2 p {margin-bottom: 0px;font-size: 18px;}
+.text-white {color: #fff;}
+
+.feature7:hover{background: #054591 !important;}
+.feature7 .feature7-info {display: table;}
+.mb-40 {margin-bottom: 40px !important;}
+.feature7 .feature7-info h4 { margin:0px; font-size:24px;}
+.feature7 .feature7-info p {color: #fff;line-height: 20px;}
+.feature7 .feature7-icon {
+    float: left;
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border: 2px solid #fff;
+    text-align: center;
+    margin-right: 25px;}
+.feature7 .feature7-icon span i{font-size:36px;line-height: 65px;color: #fff; display:block;}
+.feature7 .feature7-icon span i:hover{ background-color: #000;}

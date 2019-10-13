@@ -6,7 +6,7 @@ import About from './components/About.jsx';
 import Courses from './components/Courses.jsx';
 import Gallery from './components/Gallery.jsx';
 import News from './components/News.jsx';
-import Blog from './components/Blog.jsx';
+import Events from './components/Blog.jsx';
 import Contact from './components/Contact.jsx';
 
 import PrimaryNavbar from './components/PrimaryNavbar.jsx';
@@ -26,7 +26,7 @@ class App extends Component {
             <Route path="/courses" component={Courses}/>
             <Route path="/gallery" component={Gallery}/>
             <Route path="/news" component={News}/>
-            <Route path="/blog" component={Blog}/>
+            <Route path="/events" component={Events}/>
             <Route path="/contact" component={Contact}/>
             <FooterNavbar/>
           </div>
