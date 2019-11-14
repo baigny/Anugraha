@@ -153,12 +153,12 @@
 
 .slider-wrapper {
 	position: relative;
-	height: 70vh;
+	height: 85vh;
 	overflow: hidden;
 }
 
 .slide {
-	height: 70vh;
+	height: 85vh;
 	background-size: cover !important;
 }
 

@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "jquery": "^3.4.1",
     "material-ui": "^0.20.2",
     "mdbreact": "^4.8.7",
     "react": "^16.7.0",
     "react-animated-slider": "^1.1.4",
     "react-bootstrap": "^0.32.4",
+    "react-content-loader": "^4.3.2",
     "react-dom": "^16.7.0",
     "react-grid-gallery": "^0.5.3",
     "react-image-gallery": "^0.8.12",

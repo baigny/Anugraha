@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
-import '../styles/primaryNavbar.css'
+import '../../styles/primaryNavbar.css'
 
 
 
@@ -44,7 +44,7 @@ export default class PrimaryNavbar extends Component {
               <Navbar.Toggle/>
             </Navbar.Header>
             <Navbar.Collapse>
-              <Nav pullRight activeHref={window.location.pathname}/*  onSelect={this.handleSelect} */>
+              <Nav pullRight activeHref={window.location.pathname} id="example-one"/*  onSelect={this.handleSelect} */>
                 <NavItem eventKey={1} componentClass={Link} href="/" to="/">
                   HOME
                 </NavItem> 

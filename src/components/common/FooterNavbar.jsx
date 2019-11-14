@@ -1,9 +1,9 @@
 import React from 'react';
 import { Col, Container, Row, Footer,MDBIcon } from "mdbreact";
 import { Link } from 'react-router-dom';
-import '../styles/footerNavbar.css'
+import '../../styles/footerNavbar.css'
 
-class FooterPage extends React.Component {
+class FooterNavBar extends React.Component {
 render() {
 return (
 <Footer className="page-footer unique-color-dark dock-bottom">
@@ -107,4 +107,4 @@ return (
 }
 }
 
-export default FooterPage;
+export default FooterNavBar;

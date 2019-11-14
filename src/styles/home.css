@@ -1,9 +1,12 @@
 .carousel-width-overflow{
     width: 100%;
+    /*overlay on navbar - style - OON*/
+    top: -80px;
+    position: relative;
 }
 
 .overflow-jumbotron{
-    top: -60px;
+    top: -140px;
     position: relative;
     z-index: 1;
 }
@@ -25,6 +28,12 @@
     position: relative;
     z-index: 0;
     background-attachment: fixed;
+}
+
+.content-placeholder {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .bg-opacity-black:before {
@@ -72,7 +81,7 @@
 }
 
 .home-admissions{
-    top: -60px;
+    top: -110px;
     position: relative;
 }
 .section-title-2 {margin-bottom: 60px;}

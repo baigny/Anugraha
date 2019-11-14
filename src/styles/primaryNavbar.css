@@ -1,10 +1,17 @@
 .customized-navbar {
-    background-image: linear-gradient(to bottom,#ffffff 0,#ffffff 100%);
+    /* background-image: linear-gradient(to bottom,#ffffff 0,#ffffff 100%); */
+    /*overlay on navbar - style - OON*/
+    background-image: unset;
+    background: transparent;
     border: 0;
+    margin-bottom: 0;
 }
 
 .navbar {
     min-height: 80px;
+    /*overlay on navbar - style - OON*/
+    box-shadow: none !important;
+    z-index: 1;
 }
   
 .navbar-brand {
@@ -14,7 +21,9 @@
 }
 
 .navbar-brand>img{
-    height: inherit;
+    height: 100%;
+    position: relative;
+    top: 10%;
 }
 
 .navbar-toggle {
@@ -35,13 +44,18 @@
     font-weight: bolder;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 777px) {
     .navbar-nav > li > a {
-        /* (80px - line-height of 27px) / 2 = 26.5px */
-        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         margin-top: 16.5px;
         margin-bottom: 16.5px;
         line-height: 27px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-nav > li > a {
+        padding: 5px;
     }
 }
 @media (max-width: 777px) and (min-width: 768px) {
@@ -57,10 +71,16 @@
 .navbar-inverse .navbar-nav>.active>a, 
 .navbar-inverse .navbar-nav>.active>a:focus, 
 .navbar-inverse .navbar-nav>.active>a:hover{
-    color: #FFF;
+    color: #265a88;
+    background-color: transparent;
+    background-image: none;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+    /* color: #FFF;
     background-color: #265a88;
     background-image: none;
-    border-radius: 7px;
+    border-radius: 7px; */
 }
 
 /* .stick-to-top{
@@ -69,3 +89,13 @@
     top: 0;
     z-index: 1;
 } */
+
+
+
+/*magicline css*/
+/* .nav-wrap { margin: 50px auto;  background-color: rgba(0, 0, 0, 0.6); border-top: 2px solid white; border-bottom: 2px solid white; } */
+#example-one { list-style: none; position: relative;}
+/* #example-one li { display: inline; }
+#example-one li a { color: #bbb; font-size: 14px; display: block; float: left; padding: 6px 10px 4px 10px; text-decoration: none; text-transform: uppercase; }
+#example-one li a:hover { color: white; } */
+#magic-line { position: absolute; bottom: 15px; left: 0; width: 100px; height: 2px; background: #265a88; }

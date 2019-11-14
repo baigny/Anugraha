@@ -9,8 +9,8 @@ import News from './components/News.jsx';
 import Events from './components/Blog.jsx';
 import Contact from './components/Contact.jsx';
 
-import PrimaryNavbar from './components/PrimaryNavbar.jsx';
-import FooterNavbar from './components/FooterNavbar.jsx';
+import PrimaryNavbar from './components/common/PrimaryNavbar.jsx';
+import FooterNavbar from './components/common/FooterNavbar.jsx';
 
 class App extends Component {
   render() {
